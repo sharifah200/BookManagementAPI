@@ -1,5 +1,4 @@
-﻿/*
-# Book Management API
+﻿# Book Management API
 
 واجهة برمجة تطبيقات RESTful لإدارة مجموعة من الكتب باستخدام ASP.NET Core
 
@@ -134,5 +133,5 @@ GET /api/books?pageNumber=1&pageSize=10&searchTerm=gatsby
 ## الترخيص
 
 هذا المشروع مُرخص تحت رخصة MIT.
-*/
+
 # BookManagementAPI
