@@ -77,7 +77,7 @@ public class BooksRepository(BookContext context) : BaseRepository<Book>(context
     public async Task<IEnumerable<Book>> GetBooksByAuthorAsync(string author)
     {
         return await _dbSet
-            .Where(b => b.Author.Equals(author, StringComparison.OrdinalIgnoreCase))
+            .Where(b => b.Author.Contains(author))
             .OrderBy(b => b.PublishedDate)
             .ToListAsync();
     }
