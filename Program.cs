@@ -72,7 +72,7 @@ builder.Services.AddScoped<IBooksRepository, BooksRepository>();
 // إضافة Controllers
 // Add Controllers
 builder.Services.AddControllers();// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+//builder.Services.AddOpenApi();
 
 
 
@@ -91,12 +91,6 @@ builder.Services.AddSwaggerGen(c =>
             Name = "المطور - Developer",
             Email = "developer@bookapi.com"
         }
-    });
-
-    c.AddServer(new OpenApiServer
-    {
-        Url = "https://localhost:7104", // أو "http://localhost" للتطوير
-        Description = "Production server"
     });
 
     // إضافة دعم JWT في Swagger
