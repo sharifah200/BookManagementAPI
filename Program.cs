@@ -88,8 +88,8 @@ builder.Services.AddSwaggerGen(c =>
         Description = "واجهة برمجة تطبيقات لإدارة الكتب - API for managing books collection",
         Contact = new OpenApiContact
         {
-            Name = "المطور - Developer",
-            Email = "developer@bookapi.com"
+            Name = "شريفة - Sharifah",
+            Email = "Sherry.200@hotmail.com"
         }
     });
 
